@@ -1,0 +1,67 @@
+@charset "UTF-8";
+*{
+  margin:0;
+  padding:0;
+}
+.ban{
+  font-family: 'Noto Sans JP', sans-serif;
+  margin-top:20%;
+  max-width:100%;
+  height:27rem;
+  /* background-color: #eee; */
+  background-color: rgba(255,248,140,.7);
+  background-image: url(img/ban.png);  
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.banttl{
+  font-size: 2rem;
+  max-width: 50%;
+  text-align: center;
+  padding-top:3%;
+  line-height:50px;
+}
+
+.banttl p{
+  font-size:1.5rem;
+}
+.bbtn{
+  max-width: 26rem;
+  height:10rem;
+  text-align: center;
+  /* background-color: rgba(255,248,140,.5); */
+  background-color: #fff;
+  margin-top: 1%;
+  margin-left:13.5%;
+  border-radius: 10px;
+}
+.btxt{
+  padding-top: 5%;
+  font-size: 20px;
+  line-height: 50px;
+}
+.btxt p{
+  font-size:23px;
+  letter-spacing: 1px;
+}
+.btxt a{
+  color: black;
+  background-color: #1AA89D;
+  text-decoration: none;
+  padding:10px 16px;
+  border-radius: 5px;
+}
+
+a.btn-click{
+  color: #000;
+  background-color: #5DC1BE;
+  border-bottom: 5px solid #1AA89D;
+}
+
+a.btn-click:hover{
+  margin-top: 3px;
+  color: #000;
+  background: #5DC1BE;
+  border-bottom: 2px solid #1AA89D;
+}
