@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LP制作</title>
+    <!-- css -->
+    <link rel="stylesheet" href="./css/destyle.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="img/logo/favicon.ico">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+<!-- google font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap" rel="stylesheet">
+<!-- js -->
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+<header>
+    <!-- ナビゲーションバー -->
+    <!-- PC nav -->
+    <div class="pcnav">
+        <div class="pc_mainlogobox"><img src="./img/logo/logo.png" alt="創造社ロゴ" class="pc_mainlogoimg"></div>
+        <nav>
+            <ul>
+                <a href="#traininglink"><li>コース内容</li></a>
+                <a href="#reviewlink"><li>受講生の声</li></a>
+                <a href="#accesslink"><li>アクセス</li></a>
+            </ul>
+        </nav>
+        <a href="https://sozosha-rs.jp/contact/orientation/" target="_blank" rel="noopener noreferrer" class="pc_applylink"><div class="applyform">講座説明会は<br>こちら！</div></a>
+    </div>
+
+    <!-- Mobile nav -->
+    <div class="mobilenav">
+        <div class="mobile_mainlogobox"><img src="./img/logo/logo.png" alt="創造社ロゴ" class="mobile_mainlogoimg"></div>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav class="globalMenuSp">
+            <ul>
+                <a href="#traininglink"><li>コース内容</li></a>
+                <a href="#reviewlink"><li>受講生の声</li></a>
+                <a href="#accesslink"><li>アクセス</li></a>
+                <a href="https://sozosha-rs.jp/contact/orientation/" target="_blank" rel="noopener noreferrer"><li>講座説明会はこちら！</li></a>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<!-- ここからTOP -->
+<div class="topper" id="toplink">
+    <p class="topvideo"><iframe iframe id="player" type="text/html" src="https://www.youtube.com/embed/TpMZj-fXAT0?autoplay=1&mute=1&loop=1&playlist=TpMZj-fXAT0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe></p>
+</div>
+
+<!-- 創造社リカレントスクールとは？ -->
+<div class="contentbox wrapper" id="introducelink">
+    <div class="contenttitle">
+        <div class="contenticon"><img src="img/icon/facility.svg" alt="募集中の訓練アイコン"></div>
+        <h1>創造社リカレントスクールとは？</h1>
+    </div>
+    <a href="https://sozosha-rs.jp/course/" target="_blank" rel="noopener noreferrer"><img src="img/content/introduce.png" alt="創造社リカレントスクールとは？" class="introduceimg"></a>
+</div>
+
+
+<!-- 募集中の職業訓練 -->
+<div class="contentbox wrapper" id="traininglink">
+    <div class="contenttitle">
+        <div class="contenticon"><img src="img/icon/facility.svg" alt="募集中の訓練アイコン"></div>
+        <h1>募集中の職業訓練</h1>
+    </div>
+    <a href="https://sozosha-rs.jp/course/" target="_blank" rel="noopener noreferrer"><img src="img/content/training.png" alt="訓練講座説明" class="training"></a>
+</div>
+
+
+<!-- 入校から修了までのスケジュール-->
+<div class="contentbox wrapper" id="schedulelink">
+    <div class="contenttitle">
+        <div class="contenticon"><img src="img/icon/facility.svg" alt="入校から修了までのスケジュール"></div>
+        <h1>入校から修了までのスケジュール</h1>
+</div>
+<div class="pc_schedule">
+    <div class="scheduleimgbox">
+        <img src="img/content/schedule.png" alt="スケジュールイラスト">
+    </div>
+</div>
+<div class="mobile_schedule">
+    <div class="mb_scheduleboxes">
+        <div class="mb_schedulebox">
+            <h2 class="mb_scheduletitle">1ヶ月目</h2>
+            <p class="mb_schedulep">コンピューターの基本操作からWeb基礎知識・制作・デザインの基礎を、専用ソフト（Dreamweaver/Illustrator）を使用しながら徹底的に身に付けます。</p>
+        </div>
+        <div class="mb_schedulebox">
+            <h2 class="mb_scheduletitle">2ヶ月目</h2>
+            <p class="mb_schedulep">Photoshopを使用した画像編集基礎実習と、ポートフォリオ制作。
+                サーバーの知識・構造を理解・実際に使用することで、実務にスムーズに適応できるようサポートします。</p>
+        </div>
+        <div class="mb_schedulebox">
+            <h2 class="mb_scheduletitle">3ヶ月目</h2>
+            <p class="mb_schedulep">ポートフォリオ制作を通して、身に付けた知識・技術を高め就職に向けての準備・活動を行う時期となります。
+                またJavaScript・PHPなどのプログラミング技術の基礎を学び、Web開発の楽しさを知ることができます。</p>
+        </div>
+        <div class="mb_schedulebox">
+            <h2 class="mb_scheduletitle">4ヶ月目</h2>
+            <p class="mb_schedulep">実制作を通じ、クライアントの要望を満たし、ユーザー側からも見やすく使いやすいホームページ制作を学びます。
+            制作現場で必要な一連のプロセスを学び、チームでの共同作業を通じてより実践的な制作業務を体験することが出来ます。</p>
+        </div>
+    </div>
+</div>
+
+<div class="courseboxes">
+    <div class="coursebox">
+        <h2 class="coursetitle">1.訓練期間</h2>
+        <ul class="course_ul">
+            <li>就職支援/キャリアコンサルティング講師がクラス担任。</li>
+            <li>各受講生に個別で書類添削や面接対策を行います。</li> 
+            <li>実技の授業は専門の講師が2〜3名で担当します。</li>
+            <li>創造者での就職指導はスキルの習得と就職活動を
+                並行して訓練修了翌日からの就業を目指します。</li>
+        </ul>
+    </div>
+
+    
+    <div class="coursebox">
+        <h2 class="coursetitle">2.就職支援期間</h2>
+        <ul class="course_ul">
+            <li>修了後はこれまでと同様に引き続き学校の支援を
+                受けながら就職活動に専念。</li>
+            <li>クラス担任のキャリアコンサルティング講師も
+                就職が決まるまで引き続きサポートします。</li>
+            <li>平日や土曜日も自習で教室の使用が可能です。
+                ※修了生の平日自習は別途指定日があります。</li> 
+        </ul>
+    </div>
+</div>
+
+
+<!-- 受講生の声レビュー -->
+<div class="contentbox wrapper" id="reviewlink">
+    <div class="contenttitle">
+        <div class="contenticon"><img src="img/icon/review.svg" alt="受講生の声アイコン"></div>
+        <h1>受講生の声</h1>
+    </div>
+    <div class="reviewboxes">
+        <ul>
+            <li class="reviewbox ver1">
+                <img src="img/illust/VOC1.svg" alt="レビュー1" class="reviewimg">
+                <div class="reviewmessage">
+                    <h2 class="reviewtitle">20代女性（元営業職）<br><span>ECサイト運営から制作へ</span></h2>
+                    <p>前職は、人事採用と営業。趣味でアパレルとインテリアのECサイト運用をしており、業務委託でECサイト企画運営をしている。採用広報やECサイト運用の経験から自分でサイト制作をしたりする仕事に興味を持ち、Webデザインや言語を学ぶため職業訓練校への入校を決意。</p>
+                </div>
+            </li>
+            <li class="reviewbox ver2">
+                <div class="reviewmessage">
+                    <h2 class="reviewtitle">30代女性（接客業）<br><span>異業種からのキャリアチェンジ</span></h2>
+                    <p>前職はアパレル販売で店長。収入面等不満はなかったが、以降のキャリアアップなど将来への不安があり、働き方の可能性を広げたくスキルを身につけるため訓練校へ入校。これまでwebサイトは完全に見る専門、ECサイト等ヘビーユーザーのため、興味がありWebデザイナーを志した。</p>
+                </div>
+                <img src="img/illust/VOC2.svg" alt="レビュー2" class="reviewimg">
+            </li>
+            <li class="reviewbox ver3">
+                <img src="img/illust/VOC3.svg" alt="レビュー3" class="reviewimg">
+                <div class="reviewmessage">
+                    <h2 class="reviewtitle">30代男性（技術職）<br><span>スキルを磨きキャリアを広げる</span></h2>
+                    <p>前職はプログラマー・システムエンジニアとしてPCアプリの開発に従事。
+                        Web業界に興味を持ち、ホームページに関わる仕事をしたいと思い、自分の開発技術を生かせるPHPを学ぶため創造社リカレントスクールへ入校。
+                        Webデザイン+開発基礎科で習ったWordPressでホームページを作ることができた</p>
+                </div>
+            </li>
+            <li class="reviewbox ver4">
+                <div class="reviewmessage">
+                    <h2 class="reviewtitle">30代男性（営業職）<br><span>デザイン力を活かして新たな世界へ</span></h2>
+                    <p>以前、グラフィックデザイナーとして制作会社に勤務。その後、コピーライター職を経験後、看板・印刷関係の営業として勤務。
+                        デザイナーとして、再就職を目指して職業訓練に応募。卒業後は、webデザイナーやディレクターとして、就職する事を目指し訓練を受講している。</p>
+                </div>
+                <img src="img/illust/VOC4.svg" alt="レビュー4" class="reviewimg">
+            </li>
+        </ul>
+    </div>
+    <div class="youtubebox">
+        <iframe width="100%" height="600" src="https://www.youtube.com/embed/UOcys1Tu9D0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</div>
+
+<!-- 施設紹介コンテンツ -->
+<div class="contentbox wrapper" id="facilitylink">
+    <div class="contenttitle">
+        <div class="contenticon"><img src="img/icon/facility.svg" alt="施設紹介アイコン"></div>
+        <h1>施設紹介</h1>
+    </div>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <!-- スライド -->
+            <div class="swiper-slide"><img src="img/class/class1.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/class/class2.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/class/class3.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/class/class4.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/class/class5.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/class/class6.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/class/class7.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/class/class8.jpg" alt=""></div>
+        </div>
+        <!-- ページネーション -->
+        <div class="swiper-pagination"></div>
+        <!-- ナビゲーションボタン -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+</div>
+
+<!-- アクセス-->
+<div class="contentbox wrapper" id="accesslink">
+    <div class="contenttitle">
+        <div class="contenticon"><img src="img/icon/access.svg" alt="受講生の声アイコン"></div>
+        <h1>アクセス</h1>
+    </div>
+    <div class="accessbox">
+        <div class="accesstext">
+            <h2 class="accessh2">大阪校</h2>
+            <p class="accessinfo">〒550-0002<br>大阪府大阪市西区江戸堀１丁目２５−１５</p>
+            <h2 class="accessh2">電車</h2>
+            <p>OsakaMetro 四ツ橋線：肥後橋駅　7番出口より徒歩7分</p>
+            <p>京阪電車 中之島線 ：渡辺橋駅　1番出口より徒13分</p> 
+            <p>中之島駅 ６番出⼝より徒歩15分</p>
+            <h2 class="accessh2">バス</h2>
+            <p>⼤阪シティバス 88号系統、75号系統 ： <br>⼟佐堀1 下⾞より徒歩3分 </p>
+        </div>
+        <div class="schoolimgbox"><img src="./img/school/school.jpg" alt="スクール外観"></div>
+    </div>
+        <div class="googlemapbox">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13122.684581293013!2d135.4923857!3d34.6882484!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3ed92fc6846afcd3!2z5Ym16YCg56S-44Oq44Kr44Os44Oz44OI44K544Kv44O844OrIOWkp-mYquagoQ!5e0!3m2!1sja!2sjp!4v1651457268425!5m2!1sja!2sjp" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+</div>
+
+<!-- コロナ対策 -->
+<div class="contentbox wrapper" id="covidlink">
+    <div class="contenttitle">
+        <div class="contenticon"><img src="img/icon/covid.svg" alt="コロナ対策アイコン"></div>
+        <h1>コロナ対策</h1>
+    </div>
+    <img src="img/content/covit19.jpg" alt="コロナ対策画像" class="covidimg">
+</div>
+<footer>
+
+</footer>
+<script>
+$(function() {
+    $('.hamburger').click(function() {
+        $(this).toggleClass('active');
+        if ($(this).hasClass('active')) {
+            $('.globalMenuSp').addClass('active');
+        } else {
+            $('.globalMenuSp').removeClass('active');
+        }
+    });
+});
+$(function(){
+var swiper = new Swiper('.swiper-container', {
+    loop: true,
+    effect: 'coverflow',
+    slidesPerView: 2, // or 'auto'
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: 'auto',
+    coverflowEffect: {
+    rotate: 50,
+    stretch: 0,
+    depth: 100,
+    modifier: 1,
+    slideShadows: true,
+},
+pagination: {
+    el: '.swiper-pagination',
+},
+    navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+    },      
+});
+});
+</script>
+</body> 
+</html>  
